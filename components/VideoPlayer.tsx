@@ -42,6 +42,15 @@
 //           youtube: {
 //             playerVars: { showinfo: 0, rel: 0, modestbranding: 1 },
 //           },
+
+// playerVars: {
+//   modestbranding: 1, // Removes YouTube logo
+//   rel: 0, // No related videos
+//   showinfo: 0, // No video title
+//   iv_load_policy: 3, // Hide annotations
+
+//   playsinline: 1, // Prevent full-screen switch
+// },
 //         }}
 //       />
 //     </div>
@@ -89,7 +98,7 @@ export const VideoPlayer = ({ url }: VideoPlayerProps) => {
               rel: 0, // No related videos
               showinfo: 0, // No video title
               iv_load_policy: 3, // Hide annotations
-              disablekb: 1, // Disable keyboard shortcuts
+          
               playsinline: 1, // Prevent full-screen switch
             },
           },
