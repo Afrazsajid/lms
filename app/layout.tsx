@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Padho - Learn Smarter, Achieve More",
+  title: "Padho - Learn Smarter, Achieve Moree",
   description: "Padho is a modern LMS platform offering high-quality educational content with interactive lessons and progress tracking.",
   openGraph: {
     title: "Padho - Learn Smarter, Achieve More",
