@@ -22,11 +22,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Padho - Learn Smarter, Achieve More",
     description: "Join Padho to access high-quality educational content, track progress, and enhance your learning experience.",
-    url: "https://padho.vercel.app",
+    url: "https://itseekho.vercel.app",
     siteName: "Padho",
     images: [
       {
-        url: "https://padho.vercel.app/og-image.png", // Replace with actual image
+        url: "https://itseekho.vercel.app/og-image.png", // Replace with actual image
         width: 1200,
         height: 630,
         alt: "Padho - LMS Platform",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     site: "@your_twitter_handle", // Add your Twitter handle if applicable
     title: "Padho - Learn Smarter, Achieve More",
     description: "Join Padho for interactive learning and progress tracking.",
-    images: ["https://padho.vercel.app/og-image.png"], // Replace with actual image
+    images: ["https://itseekho.vercel.app/og-image.png"], // Replace with actual image
   },
   metadataBase: new URL("https://padho.vercel.app"),
 };
